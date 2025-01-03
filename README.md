@@ -34,7 +34,7 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
     
 ### Step 3: Execute Prediction
 1. **Run the Model:**
-   - Open the `mCNN_Sodium.ipynb` file in Jupyter Notebook.
+   - Open the `DeepAtten_Metal.ipynb` file in Jupyter Notebook.
    - Execute the cells in the notebook to run the model and make predictions based on your dataset.
 
 ## References
