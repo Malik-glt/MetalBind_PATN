@@ -26,7 +26,7 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
      - w is sliding window size; in our case, we use 7
      - The feature type: use `'dt'` for prottrans, `'esm'` for ESM, and `'tape'` for TAPE, etc
 
-2. **Set Path `import_test.py`:**
+2. **Set paths in file `import_test.py`:**
      - `train_data.npy`: Contains the training data.
      - `train_labels.npy`: Contains the corresponding training labels.
      - `testing_data.npy`: Contains the testing data.
