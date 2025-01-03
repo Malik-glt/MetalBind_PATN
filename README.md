@@ -20,25 +20,20 @@ python get_tape.py -in "Your FASTA file folder" -out "The destination folder of 
 python get_esm.py "Pretrained model of ESM" "Your FASTA file folder" "The destination folder of your output" --repr_layers 33 --include per_tok
 python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder of your output"
 ```
-### Step 2: Generate Dataset Using Data Features
-1. **Run `length_change.ipynb`:**
-   - Open the `length_change.ipynb` file and specify the following:
-     - The proper paths for the training and testing datasets.
-     - The feature type: use `'pt'` for ProtTrans, `'esm'` for ESM, and `'tape'` for TAPE.
-     - Set the desired sequence length for the study.
+### Step 2: Create a multi-scale or the sliding window feature set.
+1. **Run `get_dataset.py`:**
+   - Python get_dataset.py -in "path of features" -label "path of labels" -out "path of output features set" -w 7 -dt ".prottrans" 
+     - w is sliding window size; in our case, we use 7
+     - The feature type: use `'dt'` for prottrans, `'esm'` for ESM, and `'tape'` for TAPE, etc
 
-2. **Run `Concatenate.ipynb`:**
-   - Execute the `Concatenate.ipynb` file to concatenate all protein sequences. This step will produce the following output files:
+2. **Set Path `import_test.py`:**
      - `train_data.npy`: Contains the training data.
      - `train_labels.npy`: Contains the corresponding training labels.
      - `testing_data.npy`: Contains the testing data.
      - `testing_labels.npy`: Contains the corresponding testing labels.
     
 ### Step 3: Execute Prediction
-1. **Navigate to the code folder:**
-   - Change your directory to the `code` folder where the prediction model is located.
-
-2. **Run the Model:**
+1. **Run the Model:**
    - Open the `mCNN_Sodium.ipynb` file in Jupyter Notebook.
    - Execute the cells in the notebook to run the model and make predictions based on your dataset.
 
