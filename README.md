@@ -2,7 +2,7 @@
 This paper introduces the MetalBind_PATN model, which achieves substantial improvements in predicting metal-ion-binding sites. By using a transformer-based neural network architecture and advanced features such as multi-scale residue information and ProtTrans embeddings, the model significantly enhances the prediction accuracy compared to previous methods. The results demonstrate impressive evaluation metrics, such as an AUC of 88.28% and an accuracy of 90.45%. The model’s performance shows considerable improvements over baseline methods, particularly in recall (46%) and MCC (12%). These advancements make MetalBind_PATN a valuable tool for metal-binding site prediction in structural bioinformatics.
 ## Fig. 1: Our Comprehensive Research Workflow:
 
-![Figure 1]([Architcture OverAll_new.png](https://github.com/Malik-glt/MetalBind_PATN/blob/7d6d1846902f0e822029aa81071091e1eaba7798/Architcture%20OverAll_new.png)
+![Figure 1]([(https://github.com/Malik-glt/MetalBind_PATN/blob/7d6d1846902f0e822029aa81071091e1eaba7798/Architcture%20OverAll_new.png])
 
 # Methodology 
 
