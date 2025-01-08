@@ -3,12 +3,6 @@ This paper introduces the MetalBind_PATN model, which achieves substantial impro
 ## Fig. 1: Our Comprehensive Research Workflow:
 ![Figure 1](https://github.com/Malik-glt/MetalBind_PATN/blob/main/Architcture%20OverAll_new.png)
 
-## Fig. 1: Our Comprehensive Research Workflow:
-<div style="background-color: white; padding: 10px; display: inline-block;">
-  <img src="https://raw.githubusercontent.com/Malik-glt/MetalBind_PATN/main/Architcture%20OverAll_new.png" alt="Figure 1">
-</div>
-
-
 ## Quick Start
 
 ### Step 1: Generate Data Features
