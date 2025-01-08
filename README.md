@@ -5,6 +5,7 @@ This paper introduces the MetalBind_PATN model, which achieves substantial impro
 <div style="background-color: white; padding: 10px; display: inline-block;">
   <img src="https://raw.githubusercontent.com/Malik-glt/MetalBind_PATN/main/Architcture%20OverAll_new.png" alt="Figure 1">
 </div>
+![Figure 1](https://raw.githubusercontent.com/Malik-glt/MetalBind_PATN/main/Architcture%20OverAll_new.png)
 
 # Methodology 
 
