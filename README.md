@@ -3,7 +3,6 @@ This paper introduces the MetalBind_PATN model, which achieves substantial impro
 ## Fig. 1: Our Comprehensive Research Workflow:
 ![Figure 1](https://raw.githubusercontent.com/Malik-glt/MetalBind_PATN/main/Architcture%20OverAll_new.png)
 
-
 # Methodology 
 
 
