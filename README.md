@@ -27,11 +27,16 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
      - `train_labels.npy`: Contains the corresponding training labels.
      - `testing_data.npy`: Contains the testing data.
      - `testing_labels.npy`: Contains the corresponding testing labels.
-    
-### Step 3: Execute Prediction
+
+### Step 3: RAG Strategy
+1. **Create RAG-DB:**
+ - Run the `get_dataset_RAG_DB.npy` file to creat RAG-DB or External DataBase.
+ - Run the `get_RagEmb_Batch.npy` file to Create the final embeddings.
+
+### Step 4: Execute Prediction
 1. **Run the Model:**
    - Open the `DeepAtten_Metal.ipynb` file in Jupyter Notebook.
-   - Execute the cells in the notebook to run the model and make predictions based on your dataset.
+   - Execute the cells in the notebook to run the model and make predictions based on your Final RAG-Embeddings.
 
 ## References
 1.	UniProt: the Universal Protein knowledgebase in 2023. Nucleic Acids Research, 2023. 51(D1): p. D523-D531.
