@@ -1,0 +1,10 @@
+# Creat RAG DAtaBase
+
+python get_dataset_RAG_DB.py -in "path to RAD-DG-Embeddings" -label "Path to labels to Labels" -out "path to putput embddings" -w "window size for series features" -dt ".prottrans" 
+Data Shape: (18986, 15, 1024)
+Label Shape: (18986, 2)
+
+## Search and fusion
+python get_RagEmb_Batch.py -query "path to key embeddings" -labels "path to key labels" -db "path to RAG-DB" -out "path to final-embeddings/Rag_train_data.npy"
+
+do the same for the tesing and training data
