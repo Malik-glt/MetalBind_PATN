@@ -31,7 +31,7 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
 ### Step 3: RAG Strategy
 1. **Create RAG-DB:**
  - Run the `get_dataset_RAG_DB.npy` file to creat RAG-DB or External DataBase.
- - Run the `get_RagEmb_Batch.npy` file to Create the final embeddings.
+ - Run the `get_RagEmb_Batch.npy` file to create the final embeddings for each training and testing..
 
 ### Step 4: Execute Prediction
 1. **Run the Model:**
