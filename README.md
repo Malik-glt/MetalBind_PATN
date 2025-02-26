@@ -48,7 +48,7 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
 If you use this repository, please cite the following paper:
 
 ```bibtex
-@ARTICLE{malik2024,
+@ARTICLE{malik2025,
   author = {Malik, M. S., Le, V. T., & Ou, Y. Y.},
   title = {RAG-PLMs-MetalBind: Enhancing the Classification of Metal-Binding Residue in Proteins with Retrieval-Augmented Protein Language Models and Deep Learning},
   journal = {},
