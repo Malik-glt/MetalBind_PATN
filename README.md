@@ -41,3 +41,4 @@ python get_ProstT5.py -in "Your FASTA file folder" -out "The destination folder 
 ## References
 1.	UniProt: the Universal Protein knowledgebase in 2023. Nucleic Acids Research, 2023. 51(D1): p. D523-D531.
 2.	Elnaggar, A., et al., ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning. IEEE Trans Pattern Anal Mach Intell, 2022. 44(10): p. 7112-7127.
+3.	Lewis, P., et al., Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in Neural Information Processing Systems, 2020. 33: p. 9459-9474.
