@@ -51,7 +51,7 @@ If you use this repository, please cite the following paper:
 @ARTICLE{malik2025,
   author = {Malik, M. S., Le, V. T., & Ou, Y. Y.},
   title = {RAG-PLMs-MetalBind: Enhancing the Classification of Metal-Binding Residue in Proteins with Retrieval-Augmented Protein Language Models and Deep Learning},
-  journal = {Journal of Proteome Research},
+  journal = {ACS Applied Materials & Interfaces},
   volume = {},
   pages = {},
   year = {2025},
