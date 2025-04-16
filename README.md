@@ -1,7 +1,9 @@
 ## RAG-PLMs-MetalBind: Enhancing Metal-Binding Residue Classification with Retrieval-Augmented Protein Language Models and Transformer Network
-![Figure 1](TOC Graphic.png)
+## Fig. 1: Abstract Graphic:
+![Figure 1](Overflow.PNG)
+
 The proposed archtecture, RAG-PLMs-MetalBind, leverages external databases to augment minority (positive) classes feature representation and improve model sensitivity. The Transformer-based PATN model captures both short- and long-range dependencies within sequence data using this strategy. Utilizing a benchmark dataset and comparisons with established baseline methods, our model achieved accuracy of 98.09%, specificity of 98.11%, sensitivity of 97.32%, and an AUC of 99.72%. Notably, RAG-PLMs-MetalBind outperformed the baseline methods in recall (+71%) and MCC (+54%), demonstrating significant improvements in identifying metal-binding residues.
-## Fig. 1: Our Comprehensive Research Workflow:
+## Fig. 2: Our Comprehensive Research Workflow:
 ![Figure 2](Overflow.PNG)
 
 ## Quick Start
